@@ -58,7 +58,7 @@ Console.WriteLine($"Получилось: {result}");
 // int digit = SumDigit (number);
 // ThreeNum (digit, number);
 
-//Вариант №2 (Тоже работает!)
+//Вариант №2 (Тоже рабочий)
 
 // Console.Write("Введите целое число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
@@ -103,6 +103,30 @@ Console.WriteLine($"Получилось: {result}");
 // 1 -> нет
 
 
+Console.Write("Введите число от 1 до 7: ");
+int number = Convert.ToInt32(Console.ReadLine());
+ 
+void DayWeek (int num)
+{
+    if (num == 1)
+    Console.WriteLine("нет");
+    else if (num == 2)
+    Console.WriteLine("нет");
+    else if (num == 3)
+    Console.WriteLine("нет");
+    else if (num == 4)
+    Console.WriteLine("нет");
+    else if (num == 5)
+    Console.WriteLine("нет");
+    else if (num == 6)
+    Console.WriteLine("да");
+    else if (num == 7)
+    Console.WriteLine("да");
+    else
+    Console.WriteLine("Такого дня недели не существует");
+}
+
+DayWeek(number);
 
 
 
